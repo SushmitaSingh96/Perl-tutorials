@@ -3,8 +3,8 @@ use warnings;
 
 sub main{
 	my @files = (
-		'/home/sushmita/Downloads/PassportPhoto.jpg',
-		'/home/sushmita/Downloads/xyz.png',
+		'/home/PassportPhoto.jpg',
+		'/home/xyz.png',
 	);
 	foreach my $file (@files) {
 		if (-f $file){
