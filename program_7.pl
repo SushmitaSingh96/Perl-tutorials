@@ -3,7 +3,7 @@ use warnings;
 use Data::Dumper;
 
 sub main{
-	my $file = '/home/sushmita/Downloads/addresses.csv';
+	my $file = '/home/addresses.csv';
 	unless(open(INPUT, $file)){
 		die "Could not open file $file \n";
 	} 
